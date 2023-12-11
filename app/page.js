@@ -26,6 +26,10 @@ export default function Home() {
         <Link href="/bmi-calc"> BMI Calculator </Link><br/>
         <Link href="/calorine-intake"> Calorie Intake </Link><br/>
         <Link href="/workouts"> Workouts </Link><br/><br/>
+        <p1>
+          This website is a collection of my favorite workouts (some silly) and fitness tips. I hope you enjoy!<br/>
+          Check out the links above for BMI and Calorie intake calculations, or click the link for workouts to see what fits best for you! <br/><br/>
+        </p1>
         {dayOfWeek === 'Sunday' && <Sunday />}
         {dayOfWeek === 'Monday' && <Monday />}
         {dayOfWeek === 'Tuesday' && <Tuesday />}

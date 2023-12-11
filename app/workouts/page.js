@@ -20,10 +20,10 @@ export default function Workouts() {
             </div>
             <br/>
             <div>
-                <button onClick={() => setActiveTab('ppl')}>PPL</button>
-                <button onClick={() => setActiveTab('bro')}>Bro-Split</button>
-                <button onClick={() => setActiveTab('influencer')}>Influencer</button>
-                <button onClick={() => setActiveTab('arnold')}>Arnold</button>
+                <button className="m-10" onClick={() => setActiveTab('arnold')}>Arnold</button>
+                <button className="m-10" onClick={() => setActiveTab('bro')}>Bro-Split</button>
+                <button className="m-10" onClick={() => setActiveTab('ppl')}>PPL</button>
+                <button className="m-10" onClick={() => setActiveTab('influencer')}>Influencer</button>
 
                 {activeTab === 'ppl' && <PPL />}
                 {activeTab === 'bro' && <BroWorkout />}
