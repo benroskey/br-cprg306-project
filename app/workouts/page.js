@@ -1,8 +1,10 @@
 'use client'
 import Link from 'next/link'
 import React, { useState } from 'react';
-import Tab1 from './ppl.js';
-import Tab2 from './bro.js';
+import PPL from './ppl.js';
+import BroWorkout from './bro.js';
+import Influencer from './influencer.js';
+import Arnold from './arnold.js'
 
 export default function Workouts() {
 
@@ -20,9 +22,13 @@ export default function Workouts() {
             <div>
                 <button onClick={() => setActiveTab('ppl')}>PPL</button>
                 <button onClick={() => setActiveTab('bro')}>Bro-Split</button>
+                <button onClick={() => setActiveTab('influencer')}>Influencer</button>
+                <button onClick={() => setActiveTab('arnold')}>Arnold</button>
 
-                {activeTab === 'ppl' && <Tab1 />}
-                {activeTab === 'bro' && <Tab2 />}
+                {activeTab === 'ppl' && <PPL />}
+                {activeTab === 'bro' && <BroWorkout />}
+                {activeTab === 'influencer' && <Influencer />}
+                {activeTab === 'arnold' && <Arnold />}
             </div>
         </main>
     );

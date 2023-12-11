@@ -34,7 +34,7 @@ export default function Home() {
         {dayOfWeek === 'Friday' && <Friday />}
         {dayOfWeek === 'Saturday' && <Saturday />}
         <br/><br/>
-        <p1>
+        <p1 className="text-red-500">
           I am NOT a medical professional, just a simple coder and geology fanatic so please consult your doctor before making any changes to your diet or exercise routine.
           <br/>
         </p1>

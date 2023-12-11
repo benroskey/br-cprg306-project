@@ -51,9 +51,13 @@ export default function CalorieCalculator() {
                 <p1>
                     A calorie is a unit of energy. In nutrition, calories refer to the energy people get from the food and drink they consume, and the energy they use in physical activity.
                     Calories are listed in the nutritional information on all food packaging. Many weight loss programs center around reducing the intake of calories.
-                    <br/><br/><br/>BMR description (Basal Metabolic Rate):
-                    <br/><br/><br/> Mifflin-St Jeor Equation:
-                    <br/><br/><br/>Exercise: 15-30 minutes of elevated heart rate activity.Intense exercise: 45-120 minutes of elevated heart rate activity.Very intense exercise: 2+ hours of elevated heart rate activity.
+                    <br/><br/><br/>BMR description (Basal Metabolic Rate): This is the amount of energy expended per day at rest for an individual. It was originally obtained by measuring the amount of oxygen used by an individual at rest.
+                    Harris-Benedict Equation: The Harris-Benedict Equation was one of the earliest equations used to calculate basal metabolic rate (BMR), but it was revised in 1984 to be more accurate up until 1990 where the Mifflin-St Jeor Equation was introduced.
+                    <br/><br/><br/> Mifflin-St Jeor Equation: This equation when introduced was shown to be me more accurate than the revised Harris-Benedict Equation, and the following calculator uses this equation.
+                    <br/><br/><br/>NOTE! Exercise Definitions:
+                    <li>15-30 minutes of elevated heart rate activity.</li>
+                    <li>Intense exercise: 45-120 minutes of elevated heart rate activity.</li>
+                    <li>Very intense exercise: 2+ hours of elevated heart rate activity.</li>
                 </p1>
                 <br/>
                 <form>
